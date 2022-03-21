@@ -4,7 +4,11 @@
 #define CIRCLEAREA(r) PI*(r*r)
 
 int main() {
-    printf("%.2lf\n", CIRCLEAREA(10));
+    int r;
 
+    while(scanf("%d", &r) != EOF) {
+        printf("%.2lf\n", CIRCLEAREA(r));
+    }
+    
     return 0;
 }
