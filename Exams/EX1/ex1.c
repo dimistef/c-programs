@@ -5,7 +5,7 @@ int main() {
     int sum = 0;
 
     while (scanf("%d", &num) != EOF) {
-        if (num >= 10 && num % 2 == 0) {
+        if (num >= 10 && num < 100 && num % 2 == 0) {
             sum += num;
         }
     }

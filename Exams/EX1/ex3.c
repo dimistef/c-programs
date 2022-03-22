@@ -39,7 +39,6 @@ int main(int argc, char *argv[]) {
         while (scanf("%d", &num)) {
             printf("%d\n", num);
         }
-        
     }
     
     return 0;
